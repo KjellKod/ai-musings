@@ -9,7 +9,7 @@
 
 **This document is:**
 - A **governing standard** for how engineering work is planned, implemented, reviewed, and validated in an AI augmented environment.
-- A **teaching guide** for engineering managers and AI mentors to onboard developers safely and consistently.
+- A **teaching guide** for engineering managers and skilled AI-knowledgeable engineers to onboard developers safely and consistently.
 - A **system description**, not a set of tips.
 
 **This document is not:**
