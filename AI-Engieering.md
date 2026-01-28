@@ -67,6 +67,15 @@ flowchart TB
     H --> G
 ```
 
+```mermaid
+flowchart TB
+    A[Ideation and Validation Session] --> R1[[RESET CONTEXT]]
+    R1 --> B[High Level Planning Session] --> R2[[RESET CONTEXT]]
+    R2 --> C[Implementation Planning Session] --> R3[[RESET CONTEXT]]
+    R3 --> D[Implementation Session] --> R4[[RESET CONTEXT]]
+    R4 --> E[Review and Validation Session]
+```
+
 **Rules:**
 - Every phase validates against existing documentation (architecture, plans, backlog).
 - Humans are the gatekeepers between phases.
