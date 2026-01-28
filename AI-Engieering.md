@@ -36,7 +36,7 @@
 This workflow is **invariant**. It does not change by seniority, experience, or AI skill level.
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph Ideation
         A[Validate Idea]
         A --> B[Model Check Against Docs]
@@ -57,13 +57,14 @@ flowchart LR
         G --> H[AI Writer + AI Reviewer + Human Review]
     end
 
-    I((Human Answers Questions
-and Makes Decisions))
+    I((Human Answers Questions<br/>and Makes Decisions))
+
     D -.-> I
     F -.-> I
     H -.-> I
 
-    G <---> H
+    G --> H
+    H --> G
 ```
 
 **Rules:**
